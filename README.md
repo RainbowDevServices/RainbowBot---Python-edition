@@ -1,6 +1,6 @@
-# Discord.py bot with commands extension
+# The RainbowBot Python rewrite
 
-Basic template for a discord bot with the commands extension and [cogs](https://discordpy.readthedocs.io/en/latest/ext/commands/cogs.html)
+The RainbowBot discord bot rewritten in Python with the commands extension and [cogs](https://discordpy.readthedocs.io/en/latest/ext/commands/cogs.html)
 
 ### Pre-Setup
 
@@ -13,14 +13,17 @@ Then, click copy under token to get your bot's token. Your bot's icon can also b
 
 ### Setup
 
-Create a file named `.env`
+Click on the lock button
 
-Add `DISCORD_BOT_SECRET=<your bot token>`
+Add `DISCORD_BOT_SECRET <your bot token>`
 
-Your .env file should look something like this:
+Your secret file should look something like this:
 
 ```
-DISCORD_BOT_SECRET=<Bot token>
+key
+DISCORD_BOT_SECRET
+value
+<your bot token>
 ```
 
 After adding your bot token to your .env file, navigate to line 10 in `main.py`. Change  `487258918465306634` to your user id. To get your id, ensure developer mode is enabled (Settings->Appearance->Advanced->Developer Mode) then right-click on yourself and click copy id.
